@@ -1,0 +1,22 @@
+.button-style-v1 {
+    background-image: url('/Assets/Image/SearchIcon.png');
+    width: 100px;
+    height: 100px;
+    background-color: rgba(188, 188, 188, 0);
+}
+
+.button-style-v1:hover {
+    background-image: url('/Assets/Image/SearchIcon.png');
+    width: 105px;
+    height: 105px;
+    background-color: rgba(188, 188, 188, 0);
+    -unity-background-image-tint-color: rgb(164, 164, 164);
+}
+
+.button-style-v1:active {
+    background-image: url('/Assets/Image/SearchIcon.png');
+    width: 90px;
+    height: 90px;
+    background-color: rgba(188, 188, 188, 0);
+    -unity-background-image-tint-color: rgba(255, 255, 255, 255);
+}
